@@ -18,7 +18,7 @@ random.seed(FLAGS.random_seed)
 
 ### Note
 ##### `tf.app.run()`
-[source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/platform/app.py)
+[source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/platform/app.py)  
 explanation: deal with the flags and run the main function
 ##### Flags.gpu_fraction
 [How to prevent tensorflow from allocating the totality of a GPU memory?](http://ppt.cc/R6Ruc)
