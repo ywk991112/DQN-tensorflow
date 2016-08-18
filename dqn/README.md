@@ -17,7 +17,7 @@ random.seed(FLAGS.random_seed)
 ```
 
 ### Note
-##### `tf.app.run()`
+##### tf.app.run()
 [source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/platform/app.py)  
 explanation: deal with the flags and run the main function
 ##### Flags.gpu_fraction
