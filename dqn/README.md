@@ -16,6 +16,17 @@ tf.set_random_seed(FLAGS.random_seed)
 random.seed(FLAGS.random_seed)
 ```
 
+#### main function
+```python
+with tf.Session(config=tf.ConfigPorto(...))
+  config = ..., env = ...
+  agent(config, env, sess)
+  if FLAGS.is_train:
+    agent.train()
+  else:
+    agent.play()
+````
+
 ### Note
 #### tf.app.run()
   * [source code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/python/platform/app.py)  
